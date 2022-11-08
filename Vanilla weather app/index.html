@@ -15,77 +15,56 @@
   </head>
   <body>
     <div class="container">
+      <div class="weather-app-wrapper">
         <div class="weather-app">
-      <h1>How is the weather?</h1>
-      <form>
-      <div class="row">
-        <div class="col-7">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Type a location......."
-          />
+          <h1>How is the weather?</h1>
+          <form>
+            <div class="row">
+              <div class="col-7">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Type a location......."
+                />
+              </div>
+              <div class="col-2">
+                <button type="submit" class="btn btn-primary">Search</button>
+              </div>
+              <div class="col-3">
+                <button type="submit" class="btn btn-primary">
+                  Current Location
+                </button>
+              </div>
+            </div>
+          </form>
+          <div class="row">
+            <div class="col">
+              <h2>New York</h2>
+              <ul>
+                <li>Day: Saturday, 20th Sept 2022</li>
+                <li>Time: 17:16</li>
+                <li>Description: Clear</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h2>⛅25℃ | ℉</h2>
+              <ul>
+                <li>Precipitation: 0%</li>
+                <li>Humidity: 73%</li>
+                <li>Wind: 2 km/h</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col-2">
-          <button type="submit" class="btn btn-primary">Search</button>
-        </div>
-        <div class="col-3">
-          <button type="submit" class="btn btn-primary">
-            Current Location
-          </button>
-        </div>
-        </form>
-        <div class="row">
-        <div class="col-8">
-          <h2>New York</h2>
-          <ul>
-            <li>
-                Saturday, 20th Sept 2022
-            </li>
-            <li>17:16</li>
-            <li>
-                Clear
-            </li>
-          </ul>
-        </div>
-        <div class="col-4">
-          <h2>⛅25℃ | ℉</h2>
-            <ul>
-                <li>
-                    Precipitation: 0%
-                </li>
-                <li>
-                    Humidity: 73%
-                </li>
-                <li>
-                    Wind: 2 km/h
-                </li>
-            </ul>
-        </div>
+        <small>
+          <a
+            href="https://github.com/future-stacks/Vanilla-WeatherApp.git"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Hope Saviour
+        </small>
       </div>
-       <div class="row">
-          <div class="col">Sunday</div>
-          <div class="col">Monday</div>
-          <div class="col">Tuesday</div>
-          <div class="col">Wednesday</div>
-          <div class="col">Thursday</div>
-          <div class="col">Friday</div>
-          <div class="col">Saturday</div>
-        </div>
-        <div class="row">
-          <div class="col">⛅24℃</div>
-          <div class="col">⛅26℃</div>
-          <div class="col">⛅25℃</div>
-          <div class="col">☀30℃</div>
-          <div class="col">⛅23℃</div>
-          <div class="col">☀30℃</div>
-          <div class="col">⛅23℃</div>
-        </div>
-      <small>
-        <a href="https://github.com/future-stacks/Vanilla-WeatherApp.git" target="_blank">Open-source code</a> by Hope Saviour
-      </small>
-      </div>
-    
     </div>
     <script src="src/index.js"></script>
   </body>

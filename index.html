@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -20,20 +21,15 @@
           <h1>How is the weather?</h1>
           <form>
             <div class="row">
-              <div class="col-7">
+              <div class="col-9">
                 <input
                   type="text"
                   class="form-control"
                   placeholder="Type a location......."
                 />
               </div>
-              <div class="col-2">
-                <button type="submit" class="btn btn-primary">Search</button>
-              </div>
               <div class="col-3">
-                <button type="submit" class="btn btn-primary">
-                  Current Location
-                </button>
+                <button type="submit" class="btn btn-primary">Search</button>
               </div>
             </div>
           </form>

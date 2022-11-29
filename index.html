@@ -19,7 +19,7 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <h1>How is the weather?</h1>
-          <form>
+          <form id="search-form" class="mb-3">
             <div class="row">
               <div class="col-9">
                 <input
@@ -35,15 +35,21 @@
           </form>
           <div class="row">
             <div class="col">
-              <h2>New York</h2>
+              <h2 id="city"></h2>
               <ul>
                 <li>Day: Saturday, 20th Sept 2022</li>
                 <li>Time: 17:16</li>
-                <li>Description: Clear</li>
+                <li id="description:"></li>
               </ul>
             </div>
             <div class="col">
-              <h2>⛅25℃ | ℉</h2>
+              <div class="d-flex weather-temperature">
+                <img src="" alt="Clear" id="icon" />
+                <div>
+                  <strong id="temperature"></strong
+                  ><span class="units"> °C</span>
+                </div>
+              </div>
               <ul>
                 <li>Precipitation: 0%</li>
                 <li>Humidity: 73%</li>
